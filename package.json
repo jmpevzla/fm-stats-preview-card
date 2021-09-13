@@ -1,0 +1,15 @@
+{
+  "name": "stats-preview-card-component-main",
+  "version": "1.0.0",
+  "description": "preview card component frontmentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles.scss styles.css --output-style compressed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Manuel Perez",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
