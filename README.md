@@ -76,7 +76,7 @@ Desktop
 ### Continued development
 
 - Improve markup
-- To use SASS/SCSS
+- Improve BEM names
 - Improve fit to design
 - Improve time from start to end.
 
