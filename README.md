@@ -45,7 +45,7 @@ Desktop
 
 ## My process
 
-- To use GIMP Program for to measure margin, padding, font-sizes, etc.
+- To use GIMP Program for measure margin, padding, font-sizes, etc.
 - markup semantic HTML5 with BEM class name methodology.
 - add basic reset SCSS style.
 - add color variables SCSS.
@@ -86,7 +86,7 @@ Desktop
 
 - [Stackoverflow](stackoverflow.com) - This site have amazing posts for fix and get better semantic HTML5, CSS problems.
 
-- [CSS-tricks](https://css-tricks.com/bem-101/) - Excellent article for begining with BEM Classes methodology.
+- [CSS-tricks](https://css-tricks.com/bem-101/) - Excellent article to start with BEM Classes methodology.
 
 ## Author
 
