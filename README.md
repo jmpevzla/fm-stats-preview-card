@@ -30,13 +30,11 @@ Your users should be able to:
 
 Mobile
 
-
-
+![mobile version](/ss/mobile.png?raw=true)
 
 Desktop
 
-
-
+![desktop version](/ss/desktop.png?raw=true)
 
 ### Links
 
