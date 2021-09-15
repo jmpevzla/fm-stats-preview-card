@@ -7,13 +7,6 @@ $white: hsl(0, 0%, 100%);
 $slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
 $slightly-transparent-white-sec: hsla(0, 0%, 100%, 0.6);
 
-
-/*
-    font-family: 'Inter', sans-serif;
-
-    font-family: 'Lexend Deca', sans-serif;
-*/
-
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -61,16 +54,16 @@ main {
 	}
 
 	@at-root #{&}__container {
-		padding: 4.4rem 3.5rem 3.8rem 3.5rem;
+		padding: 3.9rem 1.8rem 3.9rem 1.8rem;
 		background-color: $dark-desaturated-blue;
 	}
 
 	@at-root #{&}__header {
 		font-family: 'Inter', sans-serif;
-		font-size: 2.7rem;
+		font-size: 2.8rem;
 		font-weight: 700;
 		text-align: center;
-		margin-bottom: 2.2rem;
+		margin-bottom: 1.5rem;
 	}
 
 	@at-root #{&}__accent {
@@ -81,11 +74,12 @@ main {
 	@at-root #{&}__text {
 		text-align: center;
 		font-size: 1.5rem;
-		line-height: 2.5rem;
+		line-height: 2.4rem;
 		color: $slightly-transparent-white;
-		margin-bottom: 4.6rem;
+		margin-bottom: 3.8rem;
 		font-family: 'Inter', sans-serif;
 		font-weight: 400;
+		padding-inline: 1rem;
 	}
 
 	@at-root #{&}__summary {
@@ -93,15 +87,15 @@ main {
 	}
 
 	@at-root #{&}__item:not(:last-child) {
-		margin-bottom: 3.3rem;
+		margin-bottom: 2.9rem;
 	}
 
 	@at-root #{&}__highlight {
 		display: inline-block;
 		font-family: 'Inter', sans-serif;
 		font-weight: 700;
-		font-size: 2.2rem;
-		margin-bottom: 0.5rem;
+		font-size: 2.5rem;
+		margin-bottom: 0.6rem;
 	}
 
 	@at-root #{&}__subtitle {
@@ -127,37 +121,31 @@ main {
 		}
 
 		@at-root #{&}__container {
-			padding: 7.7rem 12.2rem 5.4rem 7.3rem;
+			padding: 7.0rem 10rem 5.2rem 7.2rem;
 		}
 
 		@at-root #{&}__header {
 			text-align: left;
-			font-size: 3.5rem;
-			margin-bottom: 3rem;
+			font-size: 3.6rem;
+			margin-bottom: 2.6rem;
 		}
 
 		@at-root #{&}__text {
+			padding-inline: 0 1rem;
+			font-size: 1.5rem;
 			text-align: left;
-			margin-bottom: 8rem;
+			margin-bottom: 7rem;
 		}
 
 		@at-root #{&}__summary {
 			display: flex;
 			flex-direction: row;
-			//justify-content: space-between;
 			text-align: left;
 		}
 
 		@at-root #{&}__item:not(:last-child) {
 			margin-bottom: 0;
-		}
-
-		@at-root #{&}__item:first-child {
-			margin-right: 6.7rem;
-		}
-
-		@at-root #{&}__item:nth-child(2) {
-			margin-right: 6.0rem;
+			margin-right: 5.8rem;
 		}
 	}
 }
